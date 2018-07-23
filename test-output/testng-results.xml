@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="28" total="29" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA['Field description tag is not found in the template.' error message is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA['Field description tag is not found in the template.' message verified successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59281" started-at="2018-07-23T10:29:26Z" finished-at="2018-07-23T10:30:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="59281" started-at="2018-07-23T10:29:26Z" finished-at="2018-07-23T10:30:26Z">
+      <class name="com.testcases.AnalysePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.AnalysePageTest@1e397ed7]" name="setUp" is-config="true" duration-ms="17570" started-at="2018-07-23T15:59:26Z" finished-at="2018-07-23T15:59:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Upload_report_without_tags_and_view_the_publish_report_and_verify_error_msg_Test()[pri:0, instance:com.testcases.AnalysePageTest@1e397ed7]" name="Upload_report_without_tags_and_view_the_publish_report_and_verify_error_msg_Test" duration-ms="40930" started-at="2018-07-23T15:59:44Z" finished-at="2018-07-23T16:00:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA['Field description tag is not found in the template.' error message is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA['Field description tag is not found in the template.' message verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Upload_report_without_tags_and_view_the_publish_report_and_verify_error_msg_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.AnalysePageTest@1e397ed7]" name="tearDown" is-config="true" duration-ms="765" started-at="2018-07-23T16:00:25Z" finished-at="2018-07-23T16:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.AnalysePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
